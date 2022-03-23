@@ -1,0 +1,9 @@
+<template>
+    
+    <p>Welcome to LWC session {name}</p>
+    <lightning-input label ="Name" name="name" onchange={handleit} value={name}></lightning-input>
+    <lightning-input label ="email" name="email" onchange={handleit} type="email" value={email}></lightning-input>
+    <lightning-input label ="age" name="age" onchange={handleit} type="number" value={age}></lightning-input>
+    <lightning-button label ="click me"  variant="brand" onclick={method1}></lightning-button>
+   {localresult}
+</template>
